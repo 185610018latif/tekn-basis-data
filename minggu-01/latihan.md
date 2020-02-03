@@ -32,7 +32,7 @@ Berikut adalah tampilan dari database MariaDB saat pertama kali dibuka.
 
 # Latihan 2
 ---
-Untuk latihan yang kedua berisi penjelasan bagaimana langkah untuk membuat database, membuat tabel, menginsert data pada tabel, menghapus data, tabel dan database sesuai dengan tutorial yang ada pada [tutorialspoint](https://www.guru99.com/database-normalization.html). 
+Untuk latihan yang kedua berisi penjelasan bagaimana langkah untuk membuat database, membuat tabel, menginsert data pada tabel, menghapus data, tabel dan database sesuai dengan tutorial yang ada pada [tutorialspoint](https://www.tutorialspoint.com/sql/). 
 
 ----- Membuat Database -----
 
