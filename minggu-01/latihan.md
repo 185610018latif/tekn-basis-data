@@ -8,26 +8,26 @@ Setelah file instalasi MariaDB 10.5.0 berhasil download, silahkan jalankan file 
 (Picture1.png)
 
 Selanjutnya klik tombol next untuk melanjutkan proses instalasi. Dihalaman berikutnya ke jendela End-User License Agreement, silahkan check A accept the terms in the License Agreement setelah itu klik tombol Next
-![Picture1](Picture2.png)
+(Picture2.png)
 
 Di halaman Custom Setup, dimana pada jendela ini kalian bisa memilih fitur mariaDB apa saja yang ingin diinstall, saya sarankan pilih saja semua lalu klik tombol Next.
-(img src="Picture3.png")
+(Picture3.png)
 
 Selanjutnya user akan diminta memasukan password yang nanti akan digunakan untuk membuka database MariaDB, checklist juga Enable access from remote machine for ‘root’ user agar kalian bisa melakukan remot terhadap database MariaDB dan check juga Use UTF8 as default server’s character set. Lalu klik tombol Next.
-!(img 
+(Picture4.png)
 
 Atur nama service dan port yang akan digunakan, disini user menggunakan settiingan default saja. Lalu klik tombol Next.
-![gambar5](Picture5.PNG)
+(Picture5.png)
 
 Selanjutnya akan muncul windows Ready to Install MariaDB 10.5, silahkan klik tombol install dan tunggu sampai proses instalasi selesai.
-![gambar6](Picture6.PNG)
+(Picture6.png)
 
 Klik tombol Finish jika proses instalasi telah selesai.
-![gambar7](Picture7.PNG)
-![gambar8](Picture8.PNG)
+(Picture7.PNG)
+(Picture8.PNG)
 
 Berikut adalah tampilan dari database MariaDB saat pertama kali dibuka.
-![gambar9](Picture9.PNG)
+(Picture9.PNG)
 
 
 # Latihan 2
