@@ -42,7 +42,7 @@ Untuk latihan yang kedua berisi penjelasan bagaimana langkah untuk membuat datab
 
 ![Picture11](Picture11.png)
 
------ Menghapus DataBase Baru -----
+----- Menghapus DataBase -----
 
 ![Picture12](Picture12.png)
 
