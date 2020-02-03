@@ -35,139 +35,46 @@ Berikut adalah tampilan dari database MariaDB saat pertama kali dibuka.
 Untuk latihan yang kedua berisi penjelasan bagaimana langkah untuk membuat database, membuat tabel, menginsert data pada tabel, menghapus data, tabel dan database sesuai dengan tutorial yang ada pada [tutorialspoint](https://www.guru99.com/database-normalization.html). 
 
 ----- Membuat Database -----
-MariaDB [movie]> create database testDB;
-Query OK, 1 row affected (0.003 sec)
+![Picture10](Picture10.png)
 
 ----- Menampilkan Database -----
-MariaDB [movie]> show databases;
-+--------------------+
-| Database           |
-+--------------------+
-| information_schema |
-| movie              |
-| mysql              |
-| performance_schema |
-| test               |
-+--------------------+
-5 rows in set (0.002 sec)
+![Picture11](Picture11.png)
 
 ----- Menghapus DataBase Baru -----
-MariaDB [movie]> drop database testDB;
-Query OK, 0 rows affected (0.005 sec)
+![Picture12](Picture12.png)
 
 ----- Memilih Database -----
-MariaDB [movie]> use testDB;
-Database changed
+![Picture13](Picture13.png)
 
 ----- Membuat Table -----
-MariaDB [testDB]> create table customers (
-    -> ID int not null,
-    -> NAME varchar(20) not null,
-    -> AGE int not null,
-    -> ADDRESS char(25),
-    -> SALARY decimal(18,2),
-    -> primary key (ID));
-Query OK, 0 rows affected (0.247 sec)
+![Picture14](Picture14.png)
 
 ----- Menambahkan Data ke dalam Tabel -----
-MariaDB [testDB]> insert into customers (ID, NAME, AGE, ADDRESS, SALARY)
-    -> values (1, 'Ramesh', 32, 'Ahmedabad', 2000.00);
-Query OK, 1 row affected (0.024 sec)
+![Picture15](Picture15.png)
 
 ----- Menampilkan Semua Data pada Tabel Customer -----
-MariaDB [testDB]> select * from customers;
-+----+----------+-----+-----------+---------+
-| ID | NAME     | AGE | ADDRESS   | SALARY  |
-+----+----------+-----+-----------+---------+
-|  1 | Ramesh   |  32 | Ahmedabad | 2000.00 |
-|  2 | Khilan   |  25 | Delhi     | 1500.00 |
-|  3 | Kaushik  |  23 | Kota      | 2000.00 |
-|  4 | Chaitali |  25 | Mumbai    | 6500.00 |
-|  5 | Hardik   |  27 | Bhopal    | 8500.00 |
-|  6 | Komal    |  22 | MP        | 4500.00 |
-+----+----------+-----+-----------+---------+
-6 rows in set (0.001 sec)
+![Picture16](Picture16.png)
 
 ----- Menampilkan Data Nama dan Gaji, berdasarkan Gaji lebih dari 2000 -----
-MariaDB [testDB]> select ID, NAME, SALARY from customers
-    -> where SALARY > 2000;
-+----+----------+---------+
-| ID | NAME     | SALARY  |
-+----+----------+---------+
-|  4 | Chaitali | 6500.00 |
-|  5 | Hardik   | 8500.00 |
-|  6 | Komal    | 4500.00 |
-+----+----------+---------+
-3 rows in set (0.001 sec)
+![Picture17](Picture17.png)
 
 ----- Menampilkan Id, Nama dan Gaji berdasarkan Gaji lebih dari 2000 dengan umur dibawah 25 -----
-MariaDB [testDB]> select ID, NAME, SALARY from customers
-    -> where SALARY > 2000 AND AGE < 25;
-+----+-------+---------+
-| ID | NAME  | SALARY  |
-+----+-------+---------+
-|  6 | Komal | 4500.00 |
-+----+-------+---------+
-1 row in set (0.001 sec)
+![Picture18](Picture18.png)
 
 ----- Memperbaharui Data Alamat pada Id 6 -----
-MariaDB [testDB]> update customers
-    -> set ADDRESS = 'Pune'
-    -> where ID = 6;
-Query OK, 1 row affected (0.010 sec)
-Rows matched: 1  Changed: 1  Warnings: 0
+![Picture19](Picture19.png)
 
 ----- Menghapus Data -----
-MariaDB [testDB]> delete from customers
-    -> where ID = 6;
-Query OK, 1 row affected (0.015 sec)
+![Picture20](Picture20.png)
 
 ----- Menampilkan semua Data Customers dimana Gaji mulai dari 2000 ----
-MariaDB [testDB]> select * from customers
-    -> where salary like '200%';
-+----+---------+-----+-----------+---------+
-| ID | NAME    | AGE | ADDRESS   | SALARY  |
-+----+---------+-----+-----------+---------+
-|  1 | Ramesh  |  32 | Ahmedabad | 2000.00 |
-|  3 | Kaushik |  23 | Kota      | 2000.00 |
-+----+---------+-----+-----------+---------+
-2 rows in set (0.001 sec)
+![Picture21](Picture21.png)
 
 ----- Menampilkan 3 Data Teratas -----
-MariaDB [testDB]> select * from customers
-    -> limit 3;
-+----+---------+-----+-----------+---------+
-| ID | NAME    | AGE | ADDRESS   | SALARY  |
-+----+---------+-----+-----------+---------+
-|  1 | Ramesh  |  32 | Ahmedabad | 2000.00 |
-|  2 | Khilan  |  25 | Delhi     | 1500.00 |
-|  3 | Kaushik |  23 | Kota      | 2000.00 |
-+----+---------+-----+-----------+---------+
-3 rows in set (0.001 sec)
+![Picture22](Picture22.png)
 
 ----- Menampilkan urutan naik dari Gaji dan Nama -----
-MariaDB [testDB]> select * from customers
-    -> order by NAME, SALARY;
-+----+----------+-----+-----------+---------+
-| ID | NAME     | AGE | ADDRESS   | SALARY  |
-+----+----------+-----+-----------+---------+
-|  4 | Chaitali |  25 | Mumbai    | 6500.00 |
-|  5 | Hardik   |  27 | Bhopal    | 8500.00 |
-|  3 | Kaushik  |  23 | Kota      | 2000.00 |
-|  2 | Khilan   |  25 | Delhi     | 1500.00 |
-|  1 | Ramesh   |  32 | Ahmedabad | 2000.00 |
-+----+----------+-----+-----------+---------+
-5 rows in set (0.001 sec)
+![Picture23](Picture23.png)
 
 ----- Menampilkan satu data pada GAJI atau tidak duplikat ----- 
-MariaDB [testDB]> select distinct SALARY from customers
-    -> order by SALARY;
-+---------+
-| SALARY  |
-+---------+
-| 1500.00 |
-| 2000.00 |
-| 6500.00 |
-| 8500.00 |
-+---------+
-4 rows in set (0.001 sec)
+![Picture24](Picture24.png)
