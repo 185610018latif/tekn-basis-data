@@ -35,46 +35,61 @@ Berikut adalah tampilan dari database MariaDB saat pertama kali dibuka.
 Untuk latihan yang kedua berisi penjelasan bagaimana langkah untuk membuat database, membuat tabel, menginsert data pada tabel, menghapus data, tabel dan database sesuai dengan tutorial yang ada pada [tutorialspoint](https://www.guru99.com/database-normalization.html). 
 
 ----- Membuat Database -----
+
 ![Picture10](Picture10.png)
 
 ----- Menampilkan Database -----
+
 ![Picture11](Picture11.png)
 
 ----- Menghapus DataBase Baru -----
+
 ![Picture12](Picture12.png)
 
 ----- Memilih Database -----
+
 ![Picture13](Picture13.png)
 
 ----- Membuat Table -----
+
 ![Picture14](Picture14.png)
 
 ----- Menambahkan Data ke dalam Tabel -----
+
 ![Picture15](Picture15.png)
 
 ----- Menampilkan Semua Data pada Tabel Customer -----
+
 ![Picture16](Picture16.png)
 
 ----- Menampilkan Data Nama dan Gaji, berdasarkan Gaji lebih dari 2000 -----
+
 ![Picture17](Picture17.png)
 
 ----- Menampilkan Id, Nama dan Gaji berdasarkan Gaji lebih dari 2000 dengan umur dibawah 25 -----
+
 ![Picture18](Picture18.png)
 
 ----- Memperbaharui Data Alamat pada Id 6 -----
+
 ![Picture19](Picture19.png)
 
 ----- Menghapus Data -----
+
 ![Picture20](Picture20.png)
 
 ----- Menampilkan semua Data Customers dimana Gaji mulai dari 2000 ----
+
 ![Picture21](Picture21.png)
 
 ----- Menampilkan 3 Data Teratas -----
+
 ![Picture22](Picture22.png)
 
 ----- Menampilkan urutan naik dari Gaji dan Nama -----
+
 ![Picture23](Picture23.png)
 
 ----- Menampilkan satu data pada GAJI atau tidak duplikat ----- 
+
 ![Picture24](Picture24.png)
