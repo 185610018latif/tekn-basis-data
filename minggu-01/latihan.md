@@ -5,16 +5,16 @@ MySQL shell, disini saya memilih MariaDB untuk mengaplikasikan suatu data dalam 
 yang digunakan yakni windows 10. 
 
 Setelah file instalasi MariaDB 10.5.0 berhasil download, silahkan jalankan file instalasinya. Tampilannya seperti pada gambar
-(Picture1.PNG)
+(Picture1.png)
 
 Selanjutnya klik tombol next untuk melanjutkan proses instalasi. Dihalaman berikutnya ke jendela End-User License Agreement, silahkan check A accept the terms in the License Agreement setelah itu klik tombol Next
-![gambar2](Picture2.PNG)
+![Picture1](Picture2.png)
 
 Di halaman Custom Setup, dimana pada jendela ini kalian bisa memilih fitur mariaDB apa saja yang ingin diinstall, saya sarankan pilih saja semua lalu klik tombol Next.
 (img src="Picture3.png")
 
 Selanjutnya user akan diminta memasukan password yang nanti akan digunakan untuk membuka database MariaDB, checklist juga Enable access from remote machine for ‘root’ user agar kalian bisa melakukan remot terhadap database MariaDB dan check juga Use UTF8 as default server’s character set. Lalu klik tombol Next.
-!(img src="Picture4.png")
+!(img 
 
 Atur nama service dan port yang akan digunakan, disini user menggunakan settiingan default saja. Lalu klik tombol Next.
 ![gambar5](Picture5.PNG)
