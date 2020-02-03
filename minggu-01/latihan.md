@@ -5,7 +5,7 @@ MySQL shell, disini saya memilih MariaDB untuk mengaplikasikan suatu data dalam 
 yang digunakan yakni windows 10. 
 
 Setelah file instalasi MariaDB 10.5.0 berhasil download, silahkan jalankan file instalasinya. Tampilannya seperti pada gambar
-![gambar1](Picture1.PNG)
+!(Picture1.PNG)
 
 Selanjutnya klik tombol next untuk melanjutkan proses instalasi. Dihalaman berikutnya ke jendela End-User License Agreement, silahkan check A accept the terms in the License Agreement setelah itu klik tombol Next
 ![gambar2](Picture2.PNG)
