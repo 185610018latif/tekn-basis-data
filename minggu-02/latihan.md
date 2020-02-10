@@ -28,13 +28,13 @@ Jika Mongodb berhasil terinstall, maka langkah selanjutnya yaitu membuka cmd (Co
 Jika proses berhasil, user akan membuat folder baru di direktori C:\ dengan nama data. Kemudian didalam folder data tersebut, buatlah folder baru lagi dengan nama db.
 ![Picture10](Picture10.png) 
 ![Picture11](Picture11.png) 
- 
+
 Lalu kembali lagi di Command Prompt, kemudian ketik mongo dan tekan enter maka akan muncul proses lagi seperti gambar dibawah.
 ![Picture12](Picture12.png) 
  
 Jika proses sudah berhasil, kembali dan masuk ke folder data -> db apabila muncul file-file seperti pada gambar dibawah maka file Mongodb berhasil dibuat.
 ![Picture13](Picture13.png) 
- 
+
 Kembali lagi ke Command Prompt kemudian ketik mongo dan tekan enter, jika hasil proses seperti dibawah maka Mongodb server berhasil dijalankan dengan menggunakan akases mongo shell.
 ![Picture14](Picture14.png)
  
@@ -99,7 +99,7 @@ Contoh menambahkan 1 dokumen baru ke dalam koleksi inventory . Jika dokumen tida
 Contoh menambahkan beberapa dokumen baru ke dalam koleksi inventory . Jika dokumen tidak menentukan bidang _id , MongoDB menambahkan bidang _id dengan nilai ObjectId ke setiap dokumen. 
 ![Picture32](Picture32.png)
  
-Contoh insertOne pada [Getting Started](https://docs.mongodb.com/manual/crud/)
+    Contoh insertOne pada [Getting Started](https://docs.mongodb.com/manual/crud/)
 ![Picture33](Picture33.png) 
 
 READ Diartikan yaitu MEMBACA atau mengambil dokumen dari collection. Berikut dalam MongoDB terdapat method untuk meminta collection untuk dokumen.
