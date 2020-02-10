@@ -47,17 +47,17 @@ Untuk mengaktifkan profil dan mengatur level profil, db.setProfilingLevel() leve
  
 -	Tentukan Ambang Batas untuk Operasi Lambat 
 Secara default, ambang operasi lambat adalah 100 milidetik. Untuk mengubah ambang operasi lambat, tentukan nilai ambang yang diinginkan dalam salah satu cara berikut: 
-	Atur nilai slowms menggunakan perintah profile atau db.setProfilingLevel() shell helper db.setProfilingLevel() . 
-	Tetapkan nilai --slowms dari baris perintah saat startup. 
-	Tetapkan nilai slowOpThresholdMs dalam file konfigurasi . 
+=>Atur nilai slowms menggunakan perintah profile atau db.setProfilingLevel() shell helper db.setProfilingLevel() . 
+=>Tetapkan nilai --slowms dari baris perintah saat startup. 
+=>Tetapkan nilai slowOpThresholdMs dalam file konfigurasi . 
 Misalnya, kode berikut menetapkan tingkat profil untuk instance mongod saat ini menjadi 1 dan menetapkan ambang operasi lambat untuk instance mongod menjadi 20 milidetik:
 ![Picture56](Picture56.png) 
  
 -	Profil Sampel Acak Operasi Lambat
 Untuk profil hanya sebagian sampel acak dari semua operasi lambat , tentukan laju sampel yang diinginkan dalam salah satu cara berikut: 
-	Setel nilai sampleRate menggunakan perintah profile atau db.setProfilingLevel() shell helper db.setProfilingLevel() .
-	Tetapkan nilai --slowOpSampleRate untuk mongod atau --slowOpSampleRate untuk mongos dari baris perintah saat startup.
-	Tetapkan nilai slowOpSampleRate dalam file konfigurasi . 
+=>Setel nilai sampleRate menggunakan perintah profile atau db.setProfilingLevel() shell helper db.setProfilingLevel() .
+=>Tetapkan nilai --slowOpSampleRate untuk mongod atau --slowOpSampleRate untuk mongos dari baris perintah saat startup.
+=>Tetapkan nilai slowOpSampleRate dalam file konfigurasi . 
 Secara default, sampleRate diatur ke 1.0 , artinya semua operasi lambat diprofilkan. Ketika sampleRate diatur antara 0 dan 1, basis data dengan profil level 1 hanya akan memprofilkan persentase sampel lambat dari operasi lambat sesuai dengan sampleRate .
 Sebagai contoh, metode berikut menetapkan tingkat profil untuk mongod ke 1 dan menetapkan profiler untuk sampel 42% dari semua operasi lambat :
 ![Picture57](Picture57.png)
