@@ -21,7 +21,7 @@ Selanjutnya akan muncul windows Ready to Install MongoDB 4.3.3, silahkan klik to
 Klik tombol Finish jika proses instalasi telah selesai.
 ![Picture8](Picture8.png) 
  
-# Latihan 2	(Jalankan MongoDB server dengan menggunakan mongo shell)
+# Latihan 2	(Menjalankan MongoDB server dengan menggunakan mongo shell)
 Jika Mongodb berhasil terinstall, maka langkah selanjutnya yaitu membuka cmd (Command Prompt). Kemudian kita akan masuk ke dalam direktori dimana file MongoDB tersimpan dengan cara cd C:\Program Files\MongoDB\Server\4.3\bin atau bisa juga dicopy pada alamat direktori pada file explorer. Apabila sudah masuk dalam direktori MongoDb ketik mongod lalu tekan enter, maka akan muncul proses seperti pada gambar dibawah.
 ![Picture9](Picture9.png)
  
@@ -39,7 +39,7 @@ Kembali lagi ke Command Prompt kemudian ketik mongo dan tekan enter, jika hasil 
 ![Picture14](Picture14.png)
  
  
-# Latihan 3 (Kerjakan getting started)
+# Latihan 3 (Kerjakan Getting Started)
 Tab 0
 1.	db menunjukkan bahwa merujuk ke database saat ini atau database yang sedang aktif.
 ![Picture15](Picture15.png)
@@ -89,7 +89,7 @@ Tab 4
 2.	db.inventory.find merujuk untuk shell dokumen yang bidang isinya adalah _id sama dengan "0", item sama dengan “1” dan status sama dengan “1” :
 ![Picture30](Picture30.png) 
  
-# Latihan 4	(Kerjakan CRUD pada materi dan penjelasan nomor 2)
+# Latihan 4	(CRUD pada materi dan penjelasan nomor 2)
 CREATE Diartikan yaitu MEMBUAT atau masukkan operasi, dimana menambahkan dokumen baru ke dalam collection. Jika collection saat ini tidak ada, operasi akan membuat collection. Didalam MongoDB terdapat dua method untuk menambahkan dokumen dalam collection yakni :
 1.	insertOne() dimana menginsert atau menambahkan satu data kedalam collection.
 Contoh menambahkan 1 dokumen baru ke dalam koleksi inventory . Jika dokumen tidak menentukan bidang _id , MongoDB menambahkan bidang _id dengan nilai ObjectId ke dokumen baru.
