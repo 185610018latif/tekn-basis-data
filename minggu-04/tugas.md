@@ -1,6 +1,6 @@
-Pada pertemuan 4, user menggunakan software sistem operasi linux dan tidak perlu memerlukan aplikasi docker.
-
 # Tugas (Kerjakan [Redis Quick Guide](https://www.tutorialspoint.com/redis/redis_quick_guide.htm), untuk bagian instalasi serta redis cli, gunakan Docker.)
+
+Pada pertemuan 4, user menggunakan software sistem operasi linux dan tidak perlu memerlukan aplikasi docker.
 
 1.	Untuk menjalankan perintah di server Redis, Anda memerlukan klien Redis. Klien Redis tersedia dalam paket Redis, yang telah user instal sebelumnya pada latihan.
 Untuk memulai klien Redis, buka terminal dan ketik perintah redis-cli. Ini akan terhubung ke server lokal Anda dan sekarang Anda dapat menjalankan perintah apa pun.
@@ -76,13 +76,8 @@ Transaksi redis dimulai oleh perintah MULTI dan kemudian Anda harus memberikan d
 13.	Perintah server Redis pada dasarnya digunakan untuk mengelola server Redis.
 
 ![Picture79](Picture79.png)
-
 ![Picture80](Picture80.png)
-
 ![Picture81](Picture81.png)
-
 ![Picture82](Picture82.png)
-
 ![Picture83](Picture83.png)
-
 ![Picture84](Picture84.png)
