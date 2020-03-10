@@ -4,7 +4,7 @@ Pada pertemuan 6, user menggunakan software sistem operasi linux.
 
 Pada Pertemuan 5 ini kita akan mempelajari NoSql menggunakan Apache Cassandra. Disini software yang saya gunakan yakni sistem operasi windows 10, untuk JDK yang digunakan yaitu OpenJDK 8 LTS dengan JVM Hotspot, kemudian untuk python digunakan versi 2.7.17 dan Apache Cassandra digunakan versi 3.11.6. 
 
-Pertama-tama disini saya menginstal OpenJDK yang telah saya download pada link github praktikum atau bisa diakses di link ini [https://adoptopenjdk.net/]. Langkah penginstalan bisa diikuti seperti pada gambar dibawah ini. Pertama saat program sudah selesai didownload, open file instalasi OpenJDK kemudian klik next.
+Pertama-tama disini saya menginstal OpenJDK yang telah saya download pada link github praktikum atau bisa diakses di link ini [OpenJDK](https://adoptopenjdk.net/). Langkah penginstalan bisa diikuti seperti pada gambar dibawah ini. Pertama saat program sudah selesai didownload, open file instalasi OpenJDK kemudian klik next.
 
 ![Picture1](Picture1.jpg)
 

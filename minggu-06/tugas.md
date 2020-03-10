@@ -1,4 +1,4 @@
-# Tugas (Kerjakan sesuai dengan artikel dari [A Practical Introduction to Cassandra Query Language](http://abiasforaction.net/a-practical-introduction-to-cassandra-query-language/))
+# Tugas (Kerjakan sesuai dengan artikel dari [A Practical Introduction to Cassandra Query Language](http://abiasforaction.net/a-practical-introduction-to-cassandra-query-language/)
 
 
 Ditugas ini kita mulai dengan membuat keyspace. Seperti yang disebutkan sebelumnya, keyspace mirip dengan skema / basis data di dunia RDBMS. Untuk membuat keyspace, jalankan CQL berikut. Perhatikan bagian “WITH REPLICATION” dari perintah. Ini menyatakan bahwa keyspace hewan harus menggunakan strategi replication sederhana dan hanya akan memiliki satu replication untuk semua data yang dimasukkan ke dalam keyspace. Ini bagus untuk tujuan demonstrasi tetapi bukan pilihan praktis untuk segala jenis pengujian produksi.
@@ -21,10 +21,10 @@ Mari kita masukkan baris ke dalam kolom di atas menggunakan pernyataan insert be
 
 Sekarang mari kita periksa file data. Ini akan memungkinkan kita untuk memiliki pemahaman yang lebih baik tentang bagaimana data sebenarnya disimpan dalam disk. Untuk mulai memiliki titik perbandingan mari kita jalankan perintah Select sederhana. Anda akan melihat output yang mirip dengan tangkapan layar berikut.
 
-![Picture24](Picture25.jpg)
+![Picture24](Picture24.jpg)
 
 Sekarang mari kita masukkan dua baris CQL lagi. Baris pertama yang dimasukkan akan memiliki partition key yang sama tetapi akan mengubah cluster key. Baris kedua yang dimasukkan akan memiliki partition dan cluster key baru. Kemudian menampilkan tabel.
 
-![Picture26](Picture26.jpg)
+![Picture25](Picture25.jpg)
 
 Perhatikan bahwa pernyataan penyisipan kedua hanya ditambahkan ke kunci baris yang ada dengan kunci cluster baru. Dengan demikian tiga kolom baru dengan tombol Monyet Capuchin Kecil :, Monyet Capuchin Kecil: nama panggilan dan monyet Capuchin Kecil: populasi ditambahkan ke baris 5132b130ae7911e4ab270800200c9a66. Pernyataan sisipan ketiga membuat baris baru dengan kunci pration / row 7132b130ae7911e4ab270800200c9a66.
