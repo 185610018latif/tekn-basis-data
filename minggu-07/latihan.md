@@ -29,9 +29,15 @@ Atau bisa di pelajari pada link configurasi berikut : [Cassandra cluster on wind
 
 ![Picture6](Picture6.jpg)
 
+_________________________________________________________
+
 ![Picture7](Picture7.jpg)
 
+_________________________________________________________
+
 ![Picture8](Picture8.jpg)
+
+_________________________________________________________
 
 ![Picture9](Picture9.jpg)
 
