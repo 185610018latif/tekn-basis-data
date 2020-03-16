@@ -46,8 +46,11 @@ create keyspace mykeyspace with replication={‘class’:’SimpleStrategy’,�
 Berikutnya, kita membuka command prompt baru untuk mengkases python dengan cara isi python, yang kemudian sudah terakses lalu isi dengan source code seperti dibawah
 
 >> from Cassandra.cluster import Cluster
+
 >> cluster=Cluster()
+
 >> cluster=Cluster([‘127.0.0.1’,’127.0.0.2’], port=9042)
+
 >> session=cluster.connect(‘mykeyspace’)
 
 Disini kita melakukan akses database Cassandra melalui python dengan menghubungkan cluster melalui ip localhost(172.0.0.1). Jika sudah terhubung bisa seperti gambar dibawah
@@ -57,6 +60,7 @@ Disini kita melakukan akses database Cassandra melalui python dengan menghubungk
 Kemudian, Kita beralih ke Cassandra dengan membuat table users dengan field name, age, dan email yang kemudian email sebagai primary key. Dan kita menginput data untuk menambahkan data dengan cara :
 
 >>insert into users (name,age,email) values (‘latifzulfikar’,19,’latifzulfikar0@gmail.com’);
+
 >>insert into users (name,age,email) values (‘NururriAji’,20,’ajimaruf15@gmail.com’);
 
 ![Picture12](Picture12.jpg)
@@ -64,7 +68,9 @@ Kemudian, Kita beralih ke Cassandra dengan membuat table users dengan field name
 Selanjutnya, kita mencetak hasil dari value tabel yang sudah ditambahkan pada tabel di cmd Cassandra. Lalu kita akan menampilkan data tabel tersebut menggunakan cmd python.
 
 >> rows=session.execute(‘SELECT name,age,email FROM users’) 
+
 >>For row in rows:
+
 >>Print row[0], row[1], row[2]
 
 Maka menghasilkan data yang kita input tadi pada Cassandra. Fungsi session.excute adalah mengekeskusi query yang nanti dijalankan di Cassandra. 
