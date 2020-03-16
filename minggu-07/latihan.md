@@ -25,7 +25,7 @@ Kemudian kita menginstall lz4 dan scales(opsional) yang fungsinya dapat meng-Kom
 Mengkonfigurasi pada Cassandra.yaml pada C:\apache-cassandra-3.11.4\conf.
 
 Selanjutnya, kita akan melakukan konfigurasi pada Cassandra.yaml dengan mengubah beberapa perintah pada file Cassandra.yaml tersebut. Pada cluster_name:’DemoCluster’ dan pada bagian seed kita isi dengan ip localhost nya seperti : - seeds: "127.0.0.1, 127.0.0.2". Begitupun untuk listen_address dan rpc_address juga kita isi dengan ip localhost. Lalu, save file Cassandra.yaml. 
-Atau bisa di pelajari pada link configurasi berikut : [Cassandra cluster on windows](https://manthapavankumar.wordpress.com/2015/06/20/configuring-multi-node-cassandra-cluster-on-windows-machine/).
+Atau bisa di pelajari pada link configurasi berikut : [Cassandra cluster on windows](https://manthapavankumar.wordpress.com/2015/06/20/configuring-multi-node-cassandra-cluster-on-windows-machine/)
 
 ![Picture6](Picture6.jpg)
 
@@ -35,7 +35,7 @@ Atau bisa di pelajari pada link configurasi berikut : [Cassandra cluster on wind
 
 ![Picture9](Picture9.jpg)
 
-# Latihan 2 (Kerjakan [getting started](https://docs.datastax.com/en/developer/python-driver/3.21/getting_started/).)
+# Latihan 2 (Kerjakan [getting started](https://docs.datastax.com/en/developer/python-driver/3.21/getting_started/))
 
 Dibagian ini, kita membuka aplikasi Cassandra menggunakan command prompt kemudian, masuk ke dalam direktori Cassandra yang berada di C:\Program Files\DataStax Community\apache-cassandra\conf. Lalu, isi dengan cqlsh. Kemudian, kita membuat keyspace/database bernama mykeyspace. Dengan  cara :
 
@@ -56,9 +56,8 @@ Disini kita melakukan akses database Cassandra melalui python dengan menghubungk
 
 Kemudian, Kita beralih ke Cassandra dengan membuat table users dengan field name, age, dan email yang kemudian email sebagai primary key. Dan kita menginput data untuk menambahkan data dengan cara :
 
-insert into users (name,age,email) values (‘latifzulfikar’,19,’latifzulfikar0@gmail.com’);
-
-insert into users (name,age,email) values (‘NururriAji’,20,’ajimaruf15@gmail.com’);
+>>insert into users (name,age,email) values (‘latifzulfikar’,19,’latifzulfikar0@gmail.com’);
+>>insert into users (name,age,email) values (‘NururriAji’,20,’ajimaruf15@gmail.com’);
 
 ![Picture12](Picture12.jpg)
 
