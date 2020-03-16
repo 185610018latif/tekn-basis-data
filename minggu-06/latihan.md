@@ -1,4 +1,4 @@
-Pada pertemuan 6, user menggunakan software sistem operasi linux.
+Pada pertemuan 6, user menggunakan software sistem operasi windows.
 
 # Latihan (Install Apache Cassandra hinggal bisa dijalankan server dan cqlsh)
 
