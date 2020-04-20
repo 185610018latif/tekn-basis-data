@@ -8,4 +8,4 @@
 
 ![Picture6](Picture6.jpg)
 
-Mohon maaf apabila ada kesalahan dan kekurangan pada repo latihan dan tugas pada pertemuan 9, disini saya melakukan sebisa saya melalui pemahaman praktikum ini.
+
